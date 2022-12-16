@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-11-12" view-index="0" gantt-divider-location="227" resource-divider-location="300" version="3.1.3103" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="123" order="0"/>
+        <field id="tpd4" name="Begin date" width="50" order="1"/>
+        <field id="tpd5" name="End date" width="50" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Do research about tools" color="#8cb6ce" meeting="false" start="2022-11-18" duration="6" complete="0" thirdDate="2022-11-18" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="Select The Tool" color="#8cb6ce" meeting="false" start="2022-11-22" duration="4" complete="0" thirdDate="2022-11-22" thirdDate-constraint="0" expand="true"/>
+        <task id="90" name="Meeting management" color="#8cb6ce" meeting="false" start="2022-11-17" duration="21" complete="0" thirdDate="2022-11-17" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="Write Script" color="#8cb6ce" meeting="false" start="2022-11-18" duration="12" complete="0" thirdDate="2022-11-18" thirdDate-constraint="0" expand="true"/>
+        <task id="16" name="Story Board Creation" color="#8cb6ce" meeting="false" start="2022-11-28" duration="9" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+        <task id="26" name="Character Design" color="#8cb6ce" meeting="false" start="2022-11-30" duration="4" complete="0" thirdDate="2022-11-15" thirdDate-constraint="0" expand="true"/>
+        <task id="40" name="Logo Design" color="#8cb6ce" meeting="false" start="2022-11-28" duration="4" complete="0" thirdDate="2022-11-14" thirdDate-constraint="0" expand="true"/>
+        <task id="52" name="Video Generation" color="#8cb6ce" meeting="false" start="2022-11-28" duration="14" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+        <task id="85" name="Animation" color="#8cb6ce" meeting="false" start="2022-11-28" duration="14" complete="0" thirdDate="2022-11-14" thirdDate-constraint="0" expand="true"/>
+        <task id="64" name="Background Audio" color="#8cb6ce" meeting="false" start="2022-11-28" duration="2" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+        <task id="75" name="Audio(Voice Over)" color="#8cb6ce" meeting="false" start="2022-12-07" duration="7" complete="0" thirdDate="2022-12-07" thirdDate-constraint="0" expand="true"/>
+        <task id="77" name="Sketching for animation" color="#8cb6ce" meeting="false" start="2022-11-28" duration="13" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+        <task id="86" name="Sound Engineering" color="#8cb6ce" meeting="false" start="2022-12-12" duration="4" complete="0" thirdDate="2022-12-12" thirdDate-constraint="0" expand="true"/>
+        <task id="87" name="Expense Report" color="#8cb6ce" meeting="false" start="2022-11-28" duration="14" complete="0" thirdDate="2022-11-14" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Sohana" function="Default:1" contacts="rubaiyarezasohana1971@gmail.com" phone="01777988261"/>
+        <resource id="1" name="Faiza" function="Default:0" contacts="faiferoz12@gmail.com" phone="01611632683"/>
+        <resource id="2" name="Nazma" function="Default:0" contacts="nazmasarker1311@gmail.com" phone="01763848148"/>
+        <resource id="3" name="Promi" function="Default:0" contacts="farihapromi2611@gmail.com" phone="01993759393"/>
+        <resource id="4" name="Preeti" function="Default:0" contacts="neelimapreeti41@gmail.com" phone="0153119041"/>
+        <resource id="5" name="Toma" function="Default:0" contacts="tomaju304@gmail.com" phone="01616136091"/>
+        <resource id="6" name="Rahul" function="Default:0" contacts="sushmoybarua27@gmail.com" phone="01620664852"/>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="85" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="77" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="90" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="64" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="85" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="77" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="86" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="85" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="75" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="77" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="90" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="75" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="86" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
