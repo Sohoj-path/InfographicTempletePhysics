@@ -1,0 +1,37 @@
+Started render process: G:/kdenlive/bin/melt.exe -progress C:/Users/Acer/AppData/Local/Temp/kdenlive-bhTsWE.mlt out=2398
+[producer_xml] failed to load producer "E:/4-2/multimedia/SohojPath/final video/আক্কাসের গ্রাফ.png" [mp3 @ 0000017a41fe2040] Estimating duration from bitrate, this may be inaccurate [mp3 @ 0000017a421fe4c0] Estimating duration from bitrate, this may be inaccurate2	25	1
+3	49	2
+4	96	4
+5	144	6
+6	192	8
+7	241	10
+8	264	11
+9	313	13
+10	361	15
+11	433	18
+12	480	20
+13	530	22
+14	600	25
+15	650	27
+16	698	29
+17	744	31
+18	768	32
+19	816	34
+20	864	36
+21	912	38
+22	961	40
+23	1008	42
+24	1057	44
+25	1080	45
+26	1128	47
+27	1177	49
+28	1200	50
+29	1224	51
+30	1272	53
+31	1320	55
+32	1345	56
+33	1392	58
+34	1441	60
+35	1489	62
+Rendering of E:/4-2/multimedia/SohojPath/final video/drafvideo.mp4 aborted, resulting video will probably be corrupted.
+Frame: 1489
